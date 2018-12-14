@@ -1,0 +1,113 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.content {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.content img {
+    margin-bottom: 40px;
+}
+.content h1 {
+    font-size: 62px;
+    font-weight: bold;
+    color: #0c284a;
+    text-transform: uppercase;
+}
+.content p {
+    font-size: 20px;
+    color: #0c284a;
+    text-transform: uppercase;
+    position: relative;
+    bottom: -25px;
+    left: -100px;
+}
+form {
+    width: 80%;
+    margin: 100px auto 0;
+}
+.form-group {
+    text-align: left;
+}
+form label {
+    font-size: 14px;
+    color: #0c284a;
+    text-transform: uppercase;
+}
+form input {
+    height: 45px!important;
+    border-radius: 0!important;
+    border-bottom: 1px solid #ccc!important;
+    border-top: 1px solid transparent!important;
+    border-left: 1px solid transparent!important;
+    border-right: 1px solid transparent!important;
+}
+form textarea {
+    height: 45px!important;
+    border-bottom: 1px solid #ccc!important;
+    border-top: 1px solid transparent!important;
+    border-left: 1px solid transparent!important;
+    border-right: 1px solid transparent!important;
+}
+.botao {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: #0c284a;
+    border: 1px solid #0c284a;
+    padding: 10px 40px;
+    margin-top: 20px;
+    float: right;
+}
+.botao:hover {
+    color: #0c284a;
+    background: #fff;
+}
+
+
+.mapa {
+    height: 550px;
+}
+
+
+footer {
+    min-height: 100px;
+    background: #0c284a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span {
+    font-size: 12px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+
+/* --- MOBILE --- */
+@media (max-width: 767px) {
+    .content {
+        height: 750px;
+    }
+    .content img {
+        width: 100%;
+    }
+    .content p {
+        left: -94px;
+    }
+    .content h1 {
+        font-size: 60px;
+    }
+    form {
+        width: 100%;
+        margin: 50px auto 0;
+    }
+    footer {
+        display: block;
+        padding: 10px;
+    }
+}
